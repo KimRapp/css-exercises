@@ -1,14 +1,27 @@
-.header  {
+.header {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 10px solid white;
+  align-items: center;
 }
 
+.list {
+  display: flex;
+  gap: 8px;
+  margin: 0px;
+  padding: 0px;
+}
 .logo {
   font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
-  padding: 4px 32px;
+  margin: 10px 0px;
+  padding: 10px 32px;
 }
 
 ul {
@@ -22,4 +35,7 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+body {
+  background-color: black;
 }
